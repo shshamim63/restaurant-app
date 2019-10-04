@@ -1,0 +1,14 @@
+{
+  "name": "restaurant-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:shshamim63/restaurant-app.git",
+  "author": "Shshamim63 <shossain142056@bscse.uiu.ac.bd>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
