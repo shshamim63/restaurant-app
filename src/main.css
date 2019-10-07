@@ -83,6 +83,10 @@
   color: #2d2d2d;
 }
 
+li {
+  cursor: pointer;
+}
+
 .about-img {
   margin: 10px auto;
   border-radius: 50%;
@@ -90,9 +94,17 @@
   width: 95%;
 }
 
+.menu-image {
+  height: 14rem;
+}
+
 .about-p {
   height: 100%;
   width: 100%;
   padding-top: 13%;
+}
+
+.activeheader {
+  background-color: white;
 }
 /*# sourceMappingURL=main.css.map */
