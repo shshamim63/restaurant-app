@@ -47,4 +47,4 @@ const initialTemplate = () => {
   base.appendChild(header);
   base.appendChild(nav);
 };
-export default initialTemplate; 
+export default initialTemplate;

@@ -7,7 +7,7 @@ initialTemplate();
 aboutSection();
 
 const resetMenuSelection = () => {
-	document.querySelectorAll('.menu-item').forEach((menuItem) => {
+  document.querySelectorAll('.menu-item').forEach((menuItem) =>	{
 		menuItem.classList.remove('activeheader')
 		});
 };

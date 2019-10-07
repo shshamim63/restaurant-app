@@ -13,7 +13,7 @@ const menu = () => {
   const firstMenuImage = document.createElement('img');
   firstMenuImage.src = './assets/menu1.jpg';
   firstMenuImage.alt = 'First Menu Image';
-  firstMenuImage.classList.add('card-img-top','menu-image');
+  firstMenuImage.classList.add('card-img-top', 'menu-image');
 
   const firstMenuBody = document.createElement('div');
   firstMenuBody.classList.add('card-body');
@@ -36,7 +36,7 @@ const menu = () => {
   const secondMenuImage = document.createElement('img');
   secondMenuImage.src = './assets/drinks.jpg';
   secondMenuImage.alt = 'second Menu Image';
-  secondMenuImage.classList.add('card-img-top','menu-image');
+  secondMenuImage.classList.add('card-img-top', 'menu-image');
 
   const secondMenuBody = document.createElement('div');
   secondMenuBody.classList.add('card-body');
@@ -59,7 +59,7 @@ const menu = () => {
   const thirdMenuImage = document.createElement('img');
   thirdMenuImage.src = './assets/bread.jpg';
   thirdMenuImage.alt = 'third Menu Image';
-  thirdMenuImage.classList.add('card-img-top','menu-image');
+  thirdMenuImage.classList.add('card-img-top', 'menu-image');
 
   const thirdMenuBody = document.createElement('div');
   thirdMenuBody.classList.add('card-body');
