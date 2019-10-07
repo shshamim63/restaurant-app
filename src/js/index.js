@@ -12,11 +12,11 @@ const resetMenuSelection = () => {
 	});
 };
 
-document.querySelectorAll('.menu-item').forEach((list) => 
+document.querySelectorAll('.menu-item').forEach(list =>
 	list.addEventListener('click', (e) => {
 		resetMenuSelection();
 		document.querySelector('.content').removeChild(document.querySelector('.container'));
-		switch(e.target.id) {
+		switch (e.target.id) {
 			case 'about':
 				aboutSection();
 				break;
@@ -25,6 +25,8 @@ document.querySelectorAll('.menu-item').forEach((list) =>
 				break;
 			case 'contact':
 				contact();
+				break;
+			default:
 				break;
 		}
 	})

@@ -16,6 +16,7 @@
     "rules": {
         "import/extensions": 0,
         "no-tabs": 0,
-        "indent": 0
+        "indent": 0,
+        "function-paren-newline": 0
     }
 }
