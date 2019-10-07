@@ -2,6 +2,9 @@
   "name": "restaurant-app",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "eslint": "eslint --fix"
+  },
   "repository": "git@github.com:shshamim63/restaurant-app.git",
   "author": "Shshamim63 <shossain142056@bscse.uiu.ac.bd>",
   "license": "MIT",
