@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint --fix"
+    "eslint": "eslint --fix",
+    "start": "webpack --config webpack.config.js"
   },
   "repository": "git@github.com:shshamim63/restaurant-app.git",
   "author": "Shshamim63 <shossain142056@bscse.uiu.ac.bd>",
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "css-loader": "^3.2.0",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-import": "^2.18.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
   }
 }
