@@ -1,3 +1,5 @@
+import imageAbout from '../assets/about.jpg';
+
 const aboutSection = () => {
   const base = document.querySelector('.content');
   document.querySelector('#about').classList.add('activeheader');
@@ -15,7 +17,7 @@ const aboutSection = () => {
   aboutImageContainer.classList.add('col-sm');
 
   const aboutImage = document.createElement('img');
-  aboutImage.src = './assets/about.jpg';
+  aboutImage.src = imageAbout;
   aboutImage.alt = 'About image';
   aboutImage.classList.add('about-img');
 

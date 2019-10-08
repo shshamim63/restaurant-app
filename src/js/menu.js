@@ -1,3 +1,7 @@
+import kebabImage from '../assets/menu1.jpg';
+import drinkImage from '../assets/drinks.jpg';
+import breadImage from '../assets/bread.jpg';
+
 const menu = () => {
   const base = document.querySelector('.content');
   document.querySelector('#menu').classList.add('activeheader');
@@ -11,7 +15,7 @@ const menu = () => {
   firstMenu.classList.add('card', 'mr-1');
 
   const firstMenuImage = document.createElement('img');
-  firstMenuImage.src = './assets/menu1.jpg';
+  firstMenuImage.src = kebabImage;
   firstMenuImage.alt = 'First Menu Image';
   firstMenuImage.classList.add('card-img-top', 'menu-image');
 
@@ -34,7 +38,7 @@ const menu = () => {
   secondMenu.classList.add('card', 'mr-1');
 
   const secondMenuImage = document.createElement('img');
-  secondMenuImage.src = './assets/drinks.jpg';
+  secondMenuImage.src = drinkImage;
   secondMenuImage.alt = 'second Menu Image';
   secondMenuImage.classList.add('card-img-top', 'menu-image');
 
@@ -57,7 +61,7 @@ const menu = () => {
   thirdMenu.classList.add('card', 'mr-1');
 
   const thirdMenuImage = document.createElement('img');
-  thirdMenuImage.src = './assets/bread.jpg';
+  thirdMenuImage.src = breadImage;
   thirdMenuImage.alt = 'third Menu Image';
   thirdMenuImage.classList.add('card-img-top', 'menu-image');
 
