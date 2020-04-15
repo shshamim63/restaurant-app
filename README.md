@@ -26,6 +26,13 @@ Menu Page
 - Github: [@shshamim63](https://github.com/shshamim63)
 - LinkedIn: [@shakhawathossainshamim](https://www.linkedin.com/in/shakhawathossainshamim/)
 - Twitter: [@Shshamim090](https://twitter.com/Shshamim090)
+
+# Potential Future Features
+
+- **Adding sub-menu list**
+- **User can order food**
+- **Add order confirmation**
+
 # Contribute
 
 Always welcome to contribute if you want to make it better.
